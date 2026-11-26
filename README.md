@@ -11,6 +11,7 @@ I have 10+ years of experience supporting IT infrastructure and networks, and I'
 | Cloud | AWS (EC2, S3, VPC, IAM, CloudWatch) |
 | CI/CD | GitHub Actions, Jenkins |
 | Containers & Orchestration | Docker, Docker Compose, Kubernetes |
+| Infrastructure as Code | Terraform |
 | Configuration Management | Ansible |
 | Monitoring | Prometheus, Grafana |
 | Scripting | Bash, PowerShell, Python |
@@ -19,7 +20,7 @@ I have 10+ years of experience supporting IT infrastructure and networks, and I'
 
 ## 🚀 Projects
 
-All six projects are built around one Flask app, so together they tell one story from code to production-style operations.
+All seven projects are built around one Flask app, so together they tell one story from code to production-style operations.
 
 | Project | What it shows | Tools |
 |---------|---------------|-------|
@@ -29,6 +30,7 @@ All six projects are built around one Flask app, so together they tell one story
 | [Kubernetes Deployment](https://github.com/nileshkatalkar/kubernetes-flask-demo) | 3 replicas, health probes, scaling, rolling updates, and rollbacks | Kubernetes, kind, kubectl |
 | [Monitoring Stack](https://github.com/nileshkatalkar/monitoring-prometheus-grafana) | Metrics, dashboards, and alerts for request rate, errors, and latency | Prometheus, Grafana, PromQL |
 | [Ansible & Bash Automation](https://github.com/nileshkatalkar/ansible-automation) | Idempotent server configuration and a health-check script | Ansible, Bash, Docker |
+| [Terraform with Docker](https://github.com/nileshkatalkar/terraform-docker-demo) | Infrastructure as Code: plan, apply, drift detection, and destroy | Terraform, Docker |
 
 Each repo has an architecture diagram, run instructions, screenshots, and a "problems I hit and how I solved them" section.
 
@@ -39,8 +41,7 @@ Each repo has an architecture diagram, run instructions, screenshots, and a "pro
 
 ## 🌱 Currently learning
 
-- Infrastructure as Code with Terraform
-- Deploying the same projects on AWS
+- Deploying the same projects on AWS with Terraform (VPC, EC2, S3)
 
 ## 📫 Connect with me
 
