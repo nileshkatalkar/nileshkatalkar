@@ -8,7 +8,7 @@ I have 10+ years of experience supporting IT infrastructure and networks, and I'
 
 | Area | Tools |
 |------|-------|
-| Cloud | AWS (EC2, S3, VPC, IAM, CloudWatch) |
+| Cloud | AWS (EC2, S3, VPC, IAM, security groups) |
 | CI/CD | GitHub Actions, Jenkins |
 | Containers & Orchestration | Docker, Docker Compose, Kubernetes |
 | Infrastructure as Code | Terraform |
@@ -20,7 +20,7 @@ I have 10+ years of experience supporting IT infrastructure and networks, and I'
 
 ## 🚀 Projects
 
-All seven projects are built around one Flask app, so together they tell one story from code to production-style operations.
+All eight projects are built around one Flask app, so together they tell one story from code to production-style operations.
 
 | Project | What it shows | Tools |
 |---------|---------------|-------|
@@ -31,6 +31,7 @@ All seven projects are built around one Flask app, so together they tell one sto
 | [Monitoring Stack](https://github.com/nileshkatalkar/monitoring-prometheus-grafana) | Metrics, dashboards, and alerts for request rate, errors, and latency | Prometheus, Grafana, PromQL |
 | [Ansible & Bash Automation](https://github.com/nileshkatalkar/ansible-automation) | Idempotent server configuration and a health-check script | Ansible, Bash, Docker |
 | [Terraform with Docker](https://github.com/nileshkatalkar/terraform-docker-demo) | Infrastructure as Code: plan, apply, drift detection, and destroy | Terraform, Docker |
+| [Terraform on AWS](https://github.com/nileshkatalkar/terraform-aws-infra) | A VPC, public subnet, security group, EC2 web server running my container, and a private encrypted S3 bucket, all as code | Terraform, AWS (VPC, EC2, S3) |
 
 Each repo has an architecture diagram, run instructions, screenshots, and a "problems I hit and how I solved them" section.
 
@@ -41,7 +42,8 @@ Each repo has an architecture diagram, run instructions, screenshots, and a "pro
 
 ## 🌱 Currently learning
 
-- Deploying the same projects on AWS with Terraform (VPC, EC2, S3)
+- CI/CD to AWS: GitHub Actions deploying containers with Amazon ECR and OIDC (no stored AWS keys)
+- AWS automation with Python (boto3) and Bash
 
 ## 📫 Connect with me
 
